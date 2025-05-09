@@ -8,6 +8,17 @@ body {
         box-sizing: border-box;
         background-color: grey;
     }
+
+    .contenedor {
+        background-color: pink;
+        margin:auto;
+        margin-bottom: 30px;
+    }
+
+    #padre {
+        margin: auto;
+
+    }
     
     
     header {
@@ -26,6 +37,12 @@ body {
         margin: auto;
        
         
+       
+        
+    }
+
+    img {
+        max-width: 100%;
     }
     
     article {
@@ -86,4 +103,9 @@ header h1 {
 .header-article-date {
     color: #fefefed5;
     margin: 0;
+}
+
+.article-footer {
+    padding: 20px;
+    
 }
